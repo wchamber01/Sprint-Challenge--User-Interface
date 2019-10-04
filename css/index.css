@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+    v2.0 | 20110126
+    License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -66,9 +66,38 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+.home-page {
+    width: 100% auto;
+    margin: 3% 10%;
+}
+
+header div{
+    display: flex;
+    align-items: baseline;
+    margin-top: 2%;
+}
+
+header div img{
+    width: 20%;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+
+header nav{
+    width: 80%;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+header nav a{
+    padding: 0 calc((80%/5.9)*.5) 0;
+    color: black;
+    text-decoration: none;
+}
+
+header img{
+    width: 100%;
+    margin: 2% 0;
 }
 
 .top-content {
@@ -101,15 +130,134 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .box1 {
+    display: flex;
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.middle-content .box2 {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.middle-content .box3 {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.middle-content .box4 {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.middle-content .box5 {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.middle-content .box6 {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.middle-content .box7 {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.middle-content .box8 {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.middle-content .box9 {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.middle-content .box10 {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
 }
 
 .bottom-content {
@@ -143,4 +291,101 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    text-decoration: underline solid white;
+    font-weight: bolder;
+}
+
+.about-page{
+    width 100% auto;
+    margin: 3% 10%;
+}
+
+.about-page .top{
+    display: flex;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .top div{
+    padding: 0 2%;
+}
+
+.about-page .middle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.about-page .middle #top{
+    display: flex;
+    padding-bottom:3%;
+    align-content: center;
+}
+
+.middle img{
+    width: 100%;
+    padding: 3%;
+}
+#top .left{
+    width: 50%;
+    padding-bottom: 2%;
+}
+
+#top .left div{
+    padding: 3%;
+    padding-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+
+#top .right{
+    width: 50%;
+    padding-bottom: 2%;
+}
+
+#top .right div{
+    padding: 3%;
+    padding-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+
+#bottom .left{
+    width: 50%;
+    padding-bottom: 2%;
+}
+
+#bottom .left div{
+    padding: 3%;
+    padding-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+
+#bottom .right{
+    width: 50%;
+    padding-bottom: 2%;
+}
+
+#bottom .right div{
+    margin: 3%;
+    padding-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+.about-page .middle #bottom{
+    display: flex;
+    align-content: center;
+}
+
+.about-page .middle .learnMore{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.about-page .bottom{
+    margin: 2%;
 }
