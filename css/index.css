@@ -138,6 +138,7 @@ header img{
     background: teal;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -150,6 +151,7 @@ header img{
     background: gold;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -162,6 +164,7 @@ header img{
     background: cadetblue;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -174,6 +177,7 @@ header img{
     background: coral;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -186,6 +190,7 @@ header img{
     background: crimson;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -198,6 +203,7 @@ header img{
     background: forestgreen;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -210,6 +216,7 @@ header img{
     background: darkorchid;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -222,6 +229,7 @@ header img{
     background: hotpink;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -234,6 +242,7 @@ header img{
     background: indigo;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -246,6 +255,7 @@ header img{
     background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
+    text-shadow: 3px 3px 2px black;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px black;
@@ -282,4 +292,13 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    text-decoration: underline solid white;
+    font-weight: bolder;
+}
+
+.container about-page{
+    
 }
