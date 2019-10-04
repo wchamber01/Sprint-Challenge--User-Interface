@@ -67,8 +67,38 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    /* width: 800px; */
+    width: 100% auto;
+    margin: 3% 10%;
+}
+
+header div{
+    display: flex;
+    align-items: baseline;
+    margin-top: 2%;
+}
+
+header div img{
+    width: 20%;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+
+header nav{
+    width: 80%;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+header nav a{
+    padding: 0 calc((80%/5.9)*.5) 0;
+    color: black;
+    text-decoration: none;
+}
+
+header img{
+    width: 100%;
+    margin: 2% 0;
 }
 
 .top-content {
