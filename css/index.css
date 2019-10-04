@@ -66,8 +66,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    /* width: 800px; */
+.home-page {
     width: 100% auto;
     margin: 3% 10%;
 }
@@ -299,6 +298,58 @@ footer nav a:hover{
     font-weight: bolder;
 }
 
-.container about-page{
+.about-page{
+    width 100% auto;
+    margin: 3% 10%;
+}
+
+.about-page .top{
+    display: flex;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .top div{
+    padding: 0 2%;
+}
+
+.about-page .middle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 3%;
+}
+
+.about-page .middle #top{
+    display: flex;
+    justify-content: center;
     
+}
+
+#top .left{
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+
+#top .right{
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+
+#bottom .left{
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+
+#bottom .right{
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+.about-page .middle #bottom{
+    display: flex;
+}
+
+.about-page .bottom{
+    margin: 2%;
 }
