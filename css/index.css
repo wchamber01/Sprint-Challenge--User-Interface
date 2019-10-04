@@ -318,36 +318,72 @@ footer nav a:hover{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding: 0 3%;
 }
 
 .about-page .middle #top{
     display: flex;
-    justify-content: center;
-    
+    padding-bottom:3%;
+    align-content: center;
 }
 
+.middle img{
+    width: 100%;
+    padding: 3%;
+}
 #top .left{
     width: 50%;
+    padding-bottom: 2%;
+}
+
+#top .left div{
+    padding: 3%;
+    padding-bottom: 5%;
     border-bottom: 1px dashed black;
 }
 
 #top .right{
     width: 50%;
+    padding-bottom: 2%;
+}
+
+#top .right div{
+    padding: 3%;
+    padding-bottom: 5%;
     border-bottom: 1px dashed black;
 }
 
 #bottom .left{
     width: 50%;
+    padding-bottom: 2%;
+}
+
+#bottom .left div{
+    padding: 3%;
+    padding-bottom: 5%;
     border-bottom: 1px dashed black;
 }
 
 #bottom .right{
     width: 50%;
+    padding-bottom: 2%;
+}
+
+#bottom .right div{
+    margin: 3%;
+    padding-bottom: 5%;
     border-bottom: 1px dashed black;
 }
 .about-page .middle #bottom{
     display: flex;
+    align-content: center;
+}
+
+.about-page .middle .learnMore{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    margin-top: 2%;
 }
 
 .about-page .bottom{
